@@ -1,5 +1,7 @@
 package com.example.marvelcharacters.model
 
+import java.io.Serializable
+
 data class Result(
     val comics: Comics,
     val description: String,
@@ -12,4 +14,4 @@ data class Result(
     val stories: Stories,
     val thumbnail: Thumbnail,
     val urls: List<Url>
-)
+): Serializable
