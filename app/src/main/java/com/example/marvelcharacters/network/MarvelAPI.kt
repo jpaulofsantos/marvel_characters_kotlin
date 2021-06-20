@@ -1,5 +1,6 @@
 package com.example.marvelcharacters.network
 import com.example.marvelcharacters.model.Data
+import com.example.marvelcharacters.model.MarvelResponse
 import com.example.marvelcharacters.util.Constants.Companion.API_PUBLIC_KEY
 import com.example.marvelcharacters.util.Constants.Companion.HASH
 import retrofit2.Response
@@ -16,5 +17,5 @@ interface MarvelAPI {
         apiKey: String = API_PUBLIC_KEY,
         @Query("hash")
         hash: String = HASH
-    ): Response<Data>
+    ): Response<MarvelResponse>
 }

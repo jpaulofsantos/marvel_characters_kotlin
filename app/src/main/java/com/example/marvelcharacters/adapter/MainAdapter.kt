@@ -39,7 +39,7 @@ class MainAdapter : RecyclerView.Adapter<MainAdapter.CharactersViewHolder>() {
     override fun onBindViewHolder(holder: CharactersViewHolder, position: Int) {
         with(holder) {
             with(differ.currentList[position]) {
-                Glide.with(holder.itemView.context).load(thumbnail.path).into(binding.ivCharacter)
+                Glide.with(holder.itemView.context).load(thumbnail.path.plus("/landscape_amazing.jpg")).into(binding.ivCharacter)
                 binding.tvNameCharacter.text = name
 
                 holder.itemView.setOnClickListener {

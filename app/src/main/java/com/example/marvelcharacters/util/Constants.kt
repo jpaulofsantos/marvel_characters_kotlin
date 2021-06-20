@@ -8,5 +8,6 @@ class Constants {
         const val HASH = "9d78451481923c37a0d146c07ee9b4a7"
         const val SERCH_DELAY = 500L
         const val BASE_URL = "https://gateway.marvel.com/"
+        const val BASE_URL2 = "http://gateway.marvel.com/"
     }
 }

@@ -1,6 +1,7 @@
 package com.example.marvelcharacters.network
 
 import com.example.marvelcharacters.util.Constants.Companion.BASE_URL
+import com.example.marvelcharacters.util.Constants.Companion.BASE_URL2
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
